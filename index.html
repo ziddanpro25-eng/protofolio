@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Firadus Ziddan</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header id="header">
+        <div class="container navbar">
+            <a href="#" class="logo">Ziddan<span class="dot">.</span>Dev</a>
+            
+            <div class="nav-right">
+                <nav id="navMenu">
+                    <ul>
+                        <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                        <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                        <li><a href="#projek" class="nav-link">Projek</a></li>
+                        <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                    </ul>
+                </nav>
+
+                <button id="themeToggle" class="theme-btn" aria-label="Ganti Tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+
+                <div class="menu-toggle" id="mobileMenu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="beranda" class="hero section-padding">
+        <div class="container hero-content">
+            <div class="profile-text reveal-left">
+                <div class="badge">👋 Selamat Datang di Portofolio Saya</div>
+                <h1>Disini ada kumpulan projek saya. <span class="gradient-text">Kode & Kreativitas</span></h1>
+                <p class="hero-desc">
+                    Halo, saya <strong>Firadus Ziddan</strong>. Siswa SMKN Pasirian yang berfokus pada Pengembangan Web, IoT, dan Teknologi Masa Depan.
+                </p>
+                
+                <div class="cta-group">
+                    <a href="#projek" class="btn-primary">Lihat Karya Saya <i class="fas fa-arrow-right"></i></a>
+                    <a href="#kontak" class="btn-outline">Hubungi Saya</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/ziddanpro25-eng/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/ziddan_azzainuri/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@firdausziddanazzainuri/" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="profile-image reveal-right">
+                <div class="image-wrapper">
+                    <img src="foto/profile.jpeg" alt="Firadus Ziddan" class="main-img" onerror="this.src='foto/WhatsApp Image 2025-11-18 at 14.04.49.jpeg'">
+                    <div class="floating-card c-1"><i class="fas fa-code"></i> Web Dev</div>
+                    <div class="floating-card c-2"><i class="fas fa-wifi"></i> IoT</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="section section-padding">
+        <div class="container reveal-up">
+            <div class="section-header text-center">
+                <span class="subtitle">Tentang Saya</span>
+                <h2>Di Balik <span class="gradient-text">Layar</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card glass-effect">
+                    <i class="fas fa-user-graduate icon-large"></i>
+                    <h3>Pendidikan</h3>
+                    <p>Siswa aktif di <strong>SMKN Pasirian</strong>, jurusan Rekayasa Perangkat Lunak (RPL). Selalu bersemangat mempelajari teknologi baru.</p>
+                </div>
+                <div class="about-card glass-effect">
+                    <i class="fas fa-laptop-code icon-large"></i>
+                    <h3>Pengalaman</h3>
+                    <p>Berpengalaman dalam berbagai projek sekolah mulai dari pembuatan website statis, aplikasi Java, hingga perakitan sistem IoT.</p>
+                </div>
+                <div class="about-card glass-effect">
+                    <i class="fas fa-rocket icon-large"></i>
+                    <h3>Visi</h3>
+                    <p>Bercita-cita menjadi Fullstack Developer profesional yang dapat memberikan dampak positif melalui teknologi.</p>
+                </div>
+            </div>
+
+            <div class="skills-section glass-effect">
+                <h3>Kealihan</h3>
+                <div class="skills-grid">
+                    <div class="skill-pill"><i class="fab fa-html5" style="color:#E34F26"></i> HTML</div>
+                    <div class="skill-pill"><i class="fab fa-css3-alt" style="color:#1572B6"></i> CSS</div>
+                    <div class="skill-pill"><i class="fab fa-js" style="color:#F7DF1E"></i> JavaScript</div>
+                    <div class="skill-pill"><i class="fab fa-java" style="color:#007396"></i> Java</div>
+                    <div class="skill-pill"><i class="fab fa-python" style="color:#3776AB"></i> Python</div>
+                    <div class="skill-pill"><i class="fas fa-database" style="color:#4479A1"></i> MySQL</div>
+                    <div class="skill-pill"><i class="fas fa-microchip" style="color:#00979D"></i> Arduino</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projek" class="section section-padding">
+        <div class="container reveal-up">
+            <div class="section-header text-center">
+                <span class="subtitle">Portofolio</span>
+                <h2>Karya <span class="gradient-text">Terbaru</span></h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card glass-effect">
+                    <div class="card-image">
+                        <div class="overlay-icon"><i class="fas fas fa-microchip"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Internet of Things</span>
+                        <h3>kumpulan Projek Iot</h3>
+                        <p>Sistem cerdas berbasis Arduino & ESP8266 untuk memantau suhu ruangan secara realtime melalui web.</p>
+                        <a href="#" class="btn-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="project-card glass-effect">
+                    <div class="card-image color-2">
+                        <div class="overlay-icon"><i class="fas fa-globe"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Web Development</span>
+                        <h3>Kumpulan beberapa projek website</h3>
+                        <p>Aplikasi web responsif untuk manajemen data siswa menggunakan PHP Native dan database MySQL.</p>
+                        <a href="projek website/website .html" class="btn-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="project-card glass-effect">
+                    <div class="card-image color-3">
+                        <div class="overlay-icon"><i class="fab fa-java"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <span class="tag">Java Development</span>
+                        <h3>Kumpulan Projek Java</h3>
+                        <p>Aplikasi desktop berbasis Java OOP untuk menghitung transaksi penjualan dengan antarmuka GUI.</p>
+                        <a href="#" class="btn-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="section section-padding">
+        <div class="container reveal-up">
+            <div class="section-header text-center">
+                <span class="subtitle">Kontak</span>
+                <h2>Mulai <span class="gradient-text">Kolaborasi</span></h2>
+            </div>
+
+            <div class="contact-container glass-effect">
+                <div class="contact-left">
+                    <h3>Informasi Kontak</h3>
+                    <p>Silakan hubungi saya melalui form ini atau kontak langsung di bawah.</p>
+                    
+                    <div class="contact-item">
+                        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Telpon</h4>
+                            <p>+62 851-3437-8495</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Sumbermujur, Candipuro,Lumajang, Jawa Timur</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="nama" required>
+                        <label>Nama Lengkap</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label>Email Address</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="pesan" required></textarea>
+                        <label>Pesan Anda</label>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Kirim Pesan</button>
+                    <p id="formMessage"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <strong>ZiddanDev</strong>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
